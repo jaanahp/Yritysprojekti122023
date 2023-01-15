@@ -1,0 +1,473 @@
+body {
+    max-width: 2000px;
+    height: 100%;
+    margin: 0 auto;
+    overflow-x: hidden;
+    font-family: 'Nunito', sans-serif;
+    background-image: url(Media/electric_installation_greyscale_opacity20.jpg);
+    /* height: 100%;  */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* navbar design */
+
+.navbarBig {
+    width:100%;
+    height: 3.5em;
+    box-sizing: border-box;
+    font-weight: bold;
+}
+
+.name {
+    float: left;
+    width: 40%;
+    padding: 0.7em 0 0 1em;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    color: black;
+    font-size: 1.2em;
+}
+
+.bigNavbar {
+    padding: 0;
+    float: right;
+    list-style-type: none;
+}
+
+.navbar li {
+    display: inline;
+    font-size: 1em;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+.navlink {
+    padding: 1.5em 0 0 1em;
+    box-sizing: border-box;
+    text-decoration: none;
+    text-align: center;
+    color: black;
+}
+
+.navlink:hover {
+    color:rgb(70, 113, 184);
+}
+
+.hamburgernav {
+    display: none;
+    float: right;
+    margin: 0.3em 0.5em 0 0;
+    font-size: 2em;
+    cursor: pointer;
+    color: black;
+}
+
+.hideNavbar {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    display: none;
+
+}
+
+.hideNavbar a {
+    display: none;
+    width: 100%;
+    padding: 0.7em 0 0.7em 0;
+    text-align: center;
+    font-size: 1em;
+    font-weight: bold;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.hideNavbar a:hover {
+    background-color: #E8E9EB;
+}
+
+.smallNavlink {
+    text-decoration: none;
+    color: black;
+    text-align: center;
+    padding: 1.3em 0em 0em 1em;
+    box-sizing: border-box;
+}
+
+/*frontpage intro block design*/
+
+#frontpageblock {
+    display: flex;
+    flex-direction: row;
+}
+
+#introtext {
+    width: 70%;
+    padding: 0.5em 1em 0.5em 1em;
+    box-sizing: border-box;
+    background-color: #E8E9EB;
+}
+
+.general {
+    margin: 1em 0.5em 0em 0.5em;
+}
+
+#lower {
+    margin: 1em 0.5em 3em 0.5em;
+}
+
+#info {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.slogan {
+    font-size: 1.1em;
+}
+
+#logo {
+    margin: 0 1.5em;
+}
+
+#introtext {
+    position: relative;
+}
+
+#introbutton {
+    display: none;
+}
+
+.infobutton {
+    width: 10em;
+    padding: 0.5em 0.5em;
+    color: white;
+    background-color: rgb(70, 113, 184);
+    border: none;
+    cursor: pointer;
+}
+
+.buttonlink {
+    position: absolute;
+    bottom: 0.5em;
+    right: 0.5em;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+}
+
+#frontblockphoto {
+    width: 40%;
+    height: auto;
+    overflow: hidden;
+    object-fit: cover;
+    object-position: 25% 25%;
+    box-sizing: border-box;
+}
+
+/* gallery design */
+
+#gallery {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 100%;
+    margin: 0.5em auto;
+}
+
+#realistate {
+    width: 24%;
+    box-sizing: border-box;
+}
+
+.galleryphoto {
+    width: 100%;
+    border-radius: 5px 5px 0px 0px;
+}
+
+.textbox {
+    margin-bottom: 5em;
+}
+
+.galleryheader {
+    font-size: 1em;
+}
+
+#realistateInfo {
+    display: none;
+}
+
+.lastline {
+    margin-bottom: 2em;
+}
+
+.infobutton-float {
+    float: right;
+}
+
+#solarpanels {
+    width: 24%;
+    box-sizing: border-box;
+}
+
+#solarInfo {
+    display: none;
+}
+
+#powercenter {
+    width: 24%;
+    box-sizing: border-box;
+}
+
+#powerInfo {
+    display: none;
+}
+
+#mechanics {
+    width: 24%;
+    box-sizing: border-box;
+}
+
+#mechaInfo {
+    display: none;
+}
+
+.returnlink {
+    display: none;
+}
+
+/* footer design */
+
+#footer {
+    width: 100%;
+    height: 6em;
+    background-color: #91A5C7;
+    overflow: hidden;
+}
+
+#nameandlogo {
+    width: 40%;
+    float: left;
+    padding: 1.1em 0 1.1em 1.1em;
+}
+
+#minilogo {
+    float: left;
+    margin-right: 1em;
+}
+
+#footerinfo {
+    float: right;
+    padding: 1em 1em 1em 0;
+}
+
+.footeraddress {
+    display: block;
+    text-decoration: none;
+    color: black;
+    margin: 0;
+}
+
+#address {
+    padding: 0;
+    margin: 0;
+}
+
+/* contacts page design */
+
+#map {
+    margin: 1em 2em 0 1em;
+    width: 400px;
+    height: 300px;
+    box-sizing: border-box;
+}
+
+#contacts {
+    margin: 2em 0 8em 1em;
+    width: 380px;
+    border-top: 3px solid rgb(70, 113, 184);
+}
+
+.frontblock-contacts {
+    margin-bottom: 2em;
+}
+
+.footer-contacts {
+   margin-top: 4em; 
+}
+
+
+/* media queries */
+@media all and (max-width: 1000px) {
+
+/* gallery design */
+
+#gallery {
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    row-gap: 0.5em;
+    margin: 1em auto;
+}
+
+#realistate {
+    width: 47%;
+}
+
+.textbox {
+    height: 5em;
+    position: relative;
+}
+
+#solarpanels {
+    width: 47%;
+    box-sizing: border-box;
+}
+
+#powercenter {
+    width: 47%;
+    box-sizing: border-box;
+}
+
+#mechanics {
+    width: 47%;
+    box-sizing: border-box;
+    }
+
+}
+
+@media all and (max-width: 750px) {
+
+body {
+    background-attachment: scroll;
+    }
+
+/* navbar design - hamburger nav visible */
+
+.bigNavbar {
+    display: none;
+}
+   
+.hamburgernav {
+    display: initial;
+}
+
+.hideNavbar a {
+    display: block;
+}
+       
+/*frontpage intro block design*/
+
+#frontpageblock {
+    flex-direction: column;
+}
+
+#introtext {
+    order: 1;
+    width: 100%;
+}
+
+.slogan {
+    font-size: 1em;
+}
+
+#frontblockphoto {
+    order: 0;
+    width: 100%;
+}
+
+/* gallery design */
+
+#gallery {
+    flex-direction: column;
+    align-items: center;
+    margin: 2em auto;
+}
+
+#realistate {
+    width: 80%;
+    float: none;
+    margin: 0 0 1em 0;
+}
+
+.textbox {
+    margin-bottom: 1em;
+}
+
+.galleryheader {
+    font-size: 1em;
+}
+
+#solarpanels {
+    width: 80%;
+    float: none;
+    margin: 0 0 1em 0;
+}
+
+#powercenter {
+    width: 80%;
+    float: none;
+    margin: 0 0 1em 0;
+}
+
+#mechanics {
+    width: 80%;
+    float: none;
+    margin: 0 0 1em 0;
+}
+
+/* contacts page design */
+
+#map {
+    width: 100%;
+    margin: 0em;
+}
+
+#contacts {
+    margin: 1em 0em 4em 1em;
+    width: 80%;
+}
+
+.returnlink {
+    display: initial;
+}
+
+/* footer design */
+
+#name2 {
+    font-size: 0.8em;
+    padding-top: 1em;
+}
+
+.footeraddress {
+    font-size: 0.8em;
+    padding-top: 0.3em;
+}
+
+}
+
+@media all and (max-width: 400px) { 
+
+.name {
+    font-size: 0.8em;
+    padding-top: 1em;
+}
+
+#logo {
+    margin: 0 1em;
+}
+
+#name2 {
+    display: none;
+}
+
+#contacts {
+    font-size: 0.8em;
+    width: 80%;
+}
+
+}

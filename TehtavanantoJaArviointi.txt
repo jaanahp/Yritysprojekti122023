@@ -1,0 +1,34 @@
+Yrityssivun toimeksianto on nyt luotu! Tekstisisältö ja ehdotetut kuvat löytyvät alapuolelta löytyvästä 
+linkistä Jos sinulla on ehdottaa omaa aihetta, ota yhteyttä spostitse!
+Ajallisesti projektiin on aikataulutettu normaalissa etenemisessä noin neljän viikon työskentelyn aika. 
+Toki eteneminen omaan tahtiin, mutta sivusto arvioidaan käytettäväksi suunnitellun ajan mukaisesti, eli 
+lopullisen palautuksen tulisi olla suhteellisen viimeistelty kokonaisuus.
+
+Sinun tehtävänäsi on toteuttaa laadukkaat nettisivut annetun materiaalin pohjalta.
+Projektin arviointikohteet:
+Yrityssivussa arvostellaan
+- Design (kuinka miellyttävä ulkoasu sivulla on, miten layout jne toimii yhteen). Suunnittele miten sivuston 
+sisältö asetellaan, kuinka moneen sivuun sivusto kannattaa jakaa. Hyödynnä paljon vierekkäin asettelua jne. 
+- Code Integrity (Kuinka virheetöntä kuvauskieli jne. on, Onko sivu optimoitu jne.)
+- Responsiivisuus (Kuinka hyvin sivu sopeutuu mobiililaitteelle, erilaisille näytöille ja ikkuna 
+resoluutioille.
+- Sisällön sijoittelu ja rakenne (Kuvat, tekstit. Miten fiksusti jaoteltu esim eri sivuille.)
+- Saavutettavuus ja käytettävyys
+
+Sallitut tekniikat:
+
+HTML5 CSS3 + JAVASCRIPT, JQUERY, BOOTSTRAP
+
+Jossakin sivuston elementissä, toiminnassa tai osa-alueessa tulee olla hyödynnetty Javascriptiä.
+Mutta muuten 5 -arvosana on mahdollista saavuttaa pelkillä HTML5 ja CSS3 ja ne ovat toteutuksen pääteemat.
+***
+Vaatimukset
+Sivusto tulisi toteuttaa käyttäen annettuja materiaaleja.
+-	Tekstisisältö on määritelty dokumentissa ”tekstisisältö.docx”.
+-	Kuvat ja logot ovat sijoitettuna ”Media” -kansioon
+-	Tarvittaessa webkehittäjä voi käyttää muitakin kuvia
+Tavoitteena on saada yritykselle moderni, kevyt ja yksinkertainen verkkosivusto, joka toimii yrityksen 
+julkisivuna internetissä.
+Ulkoasun puolesta webkehittäjä voi käyttää omaa taiteellista näkemystään. Asiakasyritys toimii 
+teollisuudessa, jossa arvostetaan jämerää, virallista ja asiantuntevaa ulkoasua. Täten asiakas on toivonut 
+ulkoasun ilmeen olevan ammattimainen, selkeä ja mobiilioptimoitu.

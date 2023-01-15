@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="fi">
+    <head>
+        <title>Yritys Oy - Yhteystiedot</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <body>
+        <a name="top"></a>
+        <nav>
+            <div class="navbarBig">
+                <a href="index.html" class="name" title="Linkki etusivulle">EL-WELL OY</a>
+                <div class="navbar">
+                    <ul class="bigNavbar">
+                        <li><a class="navlink" href="index.html" title="Linkki etusivulle">Etusivu</a></li>
+                        <li><a class="navlink" href="contacts.html" title="Linkki yhteystietosivulle">Yhteystiedot</a></li>
+                    </ul>
+                    <a href="javascript:void(0);" id="navbutton" class="hamburgernav" onclick="showNavbar()">
+                        <i class="fa fa-bars"></i>
+                    </a>
+                </div>
+            </div>
+            
+                <div id="hide" class="hideNavbar">
+                    <a class="smallNavlink" href="index.html" title="Linkki etusivulle">Etusivu</a>
+                    <a class="smallNavlink" href="contacts.html" title="Linkki yhteystietosivulle">Yhteystiedot</a>
+                </div>
+
+        </nav>
+
+        <article>
+            <div id="frontpageblock" class="frontblock-contacts">
+
+                <div id="introtext" class="intro-contacts">
+
+                    <iframe id="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1950.4848739410072!2d24.758107816024108!3d60.73395288217221!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x468e12902ace39d9%3A0x9c26410cec76f411!2sKaartokatu%202%2C%2011100%20Riihim%C3%A4ki!5e0!3m2!1sfi!2sfi!4v1670516855247!5m2!1sfi!2sfi" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    <div id="contacts">
+                        <h1 id="company">Yritys Oy</h1>
+                        <p>Y-tunnus: 1234567-8</p>
+                        <p>Puh: 040 123 4567</p>
+                        <p>Email: info@sposti.fi</p>
+                        <p class="">Osoite 1, 01000 Paikkakunta</p>
+                        <p class="returnlink return-contacts"><a title="Linkki sivun yläosaan" href="#top">Sivun yläosaan</a> </p>
+                    </div>
+
+                </div>
+                
+                <img id="frontblockphoto" alt="asentaja sähkökeskuksen edessä" src="Media/electrician_scaled702_467.jpg">
+            </div>
+        </article>
+
+        <footer>
+            <div id="footer" class="footer-contacts">
+
+                <div id="nameandlogo">
+                    <img id="minilogo" alt="origami lintulogo" src="Media/logo.png" width="50">
+                    <h3 id="name2">YRITYS OY</h3>
+                </div>
+
+                <div id="footerinfo">
+                    <a id="telephone" class="footeraddress" href="tel:0401234567"><i class="fa fa-phone" aria-hidden="true"> 040 123 4567</i></a>
+                    <a id="email" class="footeraddress" href="mika.jarvenpaa@hamk.fi"><i class="fa fa-envelope-o" aria-hidden="true"></i> info@sposti.fi</a>
+                    <p id="address" class="footeraddress"><i class="fa fa-address-book-o" aria-hidden="true"></i> Osoite 1, 01000 Paikkakunta</p>
+                </div>
+
+            </div>
+        </footer>
+        <script src="script.js"></script>
+    </body>
+</html> 

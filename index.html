@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="fi">
+    <head>
+        <title>Yritys Oy - Etusivu</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <body>
+        <div class="background"></div>
+
+        <a name="top"></a>
+        
+        <nav>
+            <div class="navbarBig">
+                <a href="index.html" class="name" title="Linkki etusivulle">YRITYS OY</a>
+                <div class="navbar">
+                    <ul class="bigNavbar">
+                        <li><a class="navlink" href="index.html" title="Linkki etusivulle">Etusivu</a></li>
+                        <li><a class="navlink" href="contacts.html" title="Linkki yhteystietosivulle">Yhteystiedot</a></li>
+                    </ul>
+                    <a href="javascript:void(0);" id="navbutton" class="hamburgernav" onclick="showNavbar()">
+                        <i class="fa fa-bars"></i>
+                    </a>
+                </div>
+            </div>
+
+            <div id="hide" class="hideNavbar">
+                <a class="smallNavlink" href="index.html" title="Linkki etusivulle">Etusivu</a>
+                <a class="smallNavlink" href="contacts.html" title="Linkki yhteystietosivulle">Yhteystiedot</a>
+            </div>
+        </nav>
+
+        <article>
+            <div id="frontpageblock">
+                <div id="introtext">
+                    <div id="info">
+                        <h3 class="slogan">SLOGAN PART 1</h3>
+                        <img id="logo" src="Media/logo.png" alt="origami lintulogo" width="80">
+                        <h3 class="slogan">SLOGAN PART 2</h3>
+                    </div>  
+
+                    <p class="general">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam pellentesque posuere neque, nec pharetra elit tempus nec. Cras a vehicula elit. Cras faucibus aliquam ex in dignissim.</p>
+                    <p class="general">Nunc purus velit, luctus at nulla nec, tincidunt sodales magna. Sed consectetur ut dui quis dictum. Donec et placerat nunc, eu eleifend dui. Nulla convallis convallis elit eu vestibulum.</p>
+                    <p id="lower" class="general">Integer mollis odio augue, et aliquam nisl commodo a. Morbi egestas porta nisi in pellentesque.</p>
+                
+                    <a class="infobutton buttonlink" title="Linkki yhteystietosivulle" href="contacts.html">Yhteystiedot</a>
+                </div>
+                
+                <img id="frontblockphoto" alt="asentaja sähkökeskuksen edessä" src="Media/electrician_scaled702_467.jpg">
+            </div>
+        </article>
+
+        <article>
+            <div id="gallery">
+                <div id="realistate" class="gallerybox">
+                    <img id="electrician" alt="Sähköteknikko asennustöissä" class="galleryphoto" src="Media/electrician_scaled461x307.jpg">
+                    
+                    <div class="textbox">
+                        <h3 class="galleryheader">Lorem ipsum  - dolor sit amet</h3>
+                        
+                        <div id="realistateInfo">
+                        <p id="rFirstLine" class="firstline">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam pellentesque posuere neque, nec pharetra elit tempus nec. Cras a vehicula elit. Cras faucibus aliquam ex in dignissim. Nunc purus velit, luctus at nulla nec, tincidunt sodales magna.</p>
+                        <p id="rMiddleLine" class="middleline">Sed consectetur ut dui quis dictum. Donec et placerat nunc, eu eleifend dui. Nulla convallis convallis elit eu vestibulum.</p>
+                        <p id="rLastLine" class="lastline">nteger mollis odio augue, et aliquam nisl commodo a. Morbi egestas porta nisi in pellentesque.</p>
+                        </div>
+                        
+                        <button id="realistateBtn" class="infobutton infobutton-float">Lue lisää</button>
+                    </div>
+                </div>
+
+                <div id="solarpanels" class="gallerybox">
+                    <img id="solarpanel" alt="Aurinkopaneelin asennus" class="galleryphoto" src="Media/solar-panel-scaled460x307.jpg">
+                    
+                    <div class="textbox">
+                        <h3 class="galleryheader">Lorem ipsum dolor sit amet</h3>
+                        
+                        <div id="solarInfo">
+                            <p id="sFirstLine" class="firstline">Maecenas aliquam accumsan semper. Duis lacus nulla, iaculis vitae dignissim ut, rutrum ac felis. Donec quis urna non ante elementum elementum vitae eget dui.</p>
+                            <p id="sLastLine" class="lastline">Maecenas commodo volutpat mauris, in vulputate metus facilisis vel. Nunc interdum congue mattis. Vivamus ut ornare mauris, a pellentesque nisi.</p>
+                        </div>
+                        
+                        <button id="solarBtn" class="infobutton infobutton-float">Lue lisää</button>
+                    </div>
+                </div>
+
+                <div id="powercenter" class="gallerybox">
+                    <img id="installation" alt="Sähkökeskus" class="galleryphoto" src="Media/electric-scaled460x307.jpg">
+                    
+                    <div class="textbox">
+                        <h3 class="galleryheader">Lorem ipsum dolor sit amet</h3>
+
+                        <div id="powerInfo" class="infobox">
+                            <p class="firstline">Aliquam ultrices porta rutrum. Sed faucibus posuere augue, ac ultricies orci ornare vel. Nam blandit, dui vel interdum placerat, lacus turpis maximus metus, quis varius justo mauris a metus. Nunc pharetra eros massa, vel tincidunt risus feugiat sit amet.</p>
+                            <p class="lastline">Morbi condimentum, justo nec fringilla rutrum, velit libero vehicula mi, eget ullamcorper purus magna id quam. Vestibulum eget aliquet purus.</p>
+                        </div>
+                        
+                        <button id="powerBtn" class="infobutton infobutton-float">Lue lisää</button>
+                    </div>
+                </div>
+
+                <div id="mechanics" class="gallerybox">
+                    <img id="mechanical" alt="Palvelinkeskus" class="galleryphoto" src="Media/engineer_scaled461x307.jpg">
+                    
+                    <div class="textbox">
+                        <h3 class="galleryheader">Lorem ipsum dolor sit amet</h3>
+
+                        <div id="mechaInfo" class="infobox">
+                            <p class="firstline">Morbi pulvinar porta diam ut placerat. Vivamus vel metus efficitur, molestie urna id, elementum erat. Ut leo felis, tristique eu maximus ac, molestie ornare sem.</p>
+                            <p class="lastline">Donec consectetur turpis rutrum lacus dictum, a molestie quam lobortis. In non felis ut nulla pellentesque feugiat. Phasellus ac ex vel neque hendrerit varius. Nulla euismod sem sed lectus lacinia maximus quis sed metus.</p>
+                        </div>
+                        <p class="returnlink lastline"><a title="Linkki sivun yläosaan" href="#top">Sivun yläosaan</a> </p>
+                        <button id="mechaBtn" class="infobutton infobutton-float">Lue lisää</button>
+
+                    </div>
+                    
+                </div>
+
+            </div>
+        </article>
+
+        <footer>
+            <div id="footer">
+                <div id="nameandlogo">
+                    <img id="minilogo" alt="origami lintulogo" src="Media/logo.png" width="50">
+                    <h3 id="name2">YRITYS OY</h3>
+                </div>
+
+                <div id="footerinfo">
+                    <a id="telephone" class="footeraddress" href="tel:0401234567"><i class="fa fa-phone" aria-hidden="true"> 040 123 4567</i></a>
+                    <a id="email" class="footeraddress" href="mika.jarvenpaa@hamk.fi"><i class="fa fa-envelope-o" aria-hidden="true"></i> info@sposti.fi</a>
+                    <p id="address" class="footeraddress"><i class="fa fa-address-book-o" aria-hidden="true"></i> Osoite 1, 01000 Paikkakunta</p>
+                </div>
+            </div>
+        </footer>
+
+        <script src="script.js"></script>
+    </body>
+</html>
